@@ -31,7 +31,7 @@ public class WebDriverMethodsTest {
         String currentUrl = driver.getCurrentUrl();
         logger.info("current URL - " + currentUrl.toString());
         // Ввод текста в поле для поиска
-        String searchInputXpath = "/html/body/header/nav/div/div[1]/form/div/input";
+        String searchInputXpath = "//div[@class='ui-input-search ui-input-search_presearch ui-input-search_white']/input";
         WebElement searchInput = driver.findElement(By.xpath(searchInputXpath));
         String searchText = "Samsung";
         searchInput.sendKeys(searchText);
