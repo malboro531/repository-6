@@ -1,0 +1,13 @@
+WebDriverFactory.class
+WebDriverMethodsTest.class
+Chrome.class
+CookieException.class
+BrowserWindowsTest.class
+TimeOutsTest.class
+SampleTest.class
+FindElementsTest.class
+CookiesTest.class
+RelativeLocatorsTypesTest.class
+BrowserOptionsTest.class
+LogsTest.class
+SimpleLocatorsTypesTest.class
